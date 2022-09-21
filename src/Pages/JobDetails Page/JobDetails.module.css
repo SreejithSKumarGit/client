@@ -1,0 +1,110 @@
+.JobCard
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+.JobFlexBox
+{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.JobTitle
+{
+    font-size: 35px;;
+    font-weight: 600;
+}
+.CompanyName
+{
+    font-size: 28px;
+    font-weight: 600;
+}
+.Location
+{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+}
+.PostedDate
+{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(58, 57, 57);
+}
+.LocationContainer
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.LocationContainer >img
+{
+    width: 35px;
+    height: 30px;
+}
+.DescriptionBox
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.DescriptionBox >h1
+{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(58, 57, 57);
+}
+.DescriptionContainer
+{
+    border: 1px solid rgb(92, 87, 87);
+    border-radius:8px ;
+    padding: 15px;
+    height: 35vh;
+}
+.DescriptionContainer >h1
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.PostJobContainer
+{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+}
+.InputContainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.InputContainer input
+{
+    border: 1px solid rgb(124, 120, 120);
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;  
+}
+.InputContainer textarea
+{
+    border: 1px solid rgb(124, 120, 120);
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;  
+}
+.InputContainer label
+{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.FormContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

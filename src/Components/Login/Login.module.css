@@ -1,0 +1,48 @@
+.Container
+{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.FormBox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.InputBox
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 10px;
+    margin: auto;
+    align-items: center;
+}
+.InputBox Input
+{
+    height: 40px;
+}
+.LoginDiv
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 0px;
+    background-color: white;
+    opacity: 90%;
+    margin: auto;
+    width: 65%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+Button
+{
+    padding: 10px;
+    width: 150px;
+}
